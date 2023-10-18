@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/test-repo/img/liquid-cheese.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main-heading {
+    color: #001264;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 3px grey;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 3px grey;
+    position: sticky;
+    margin-bottom: 25px;
+}
+
+.index-main, .lists, .table, .video {
+    background-color: white;
+    box-shadow: 2px 2px 3px grey;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    color: #001264;
+    font-weight: 500;
+}
+
+.dark-souls-image {
+    padding: 40px;
+    width: 20%;
+}
+
+ol {
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+}
+
+table {
+    width: 25%;
+}
+
